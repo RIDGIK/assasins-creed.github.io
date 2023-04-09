@@ -1,0 +1,78 @@
+#id{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.aaa{
+    color: white;
+    position: relative;
+    left:100px;
+    font-size: 30px;
+}
+.b{
+    color:rgb(194, 40, 40);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 6px;
+}
+.b:hover{
+    background-color: black;
+}
+header{
+    background-color: black;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+}
+.uu{
+    margin-left: 20px;
+}
+body{
+    margin: 100px 0 0 0;
+    background-image: url(AC.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-attachment:fixed;
+}
+
+.reg{
+    height: 400px;
+}
+#AC{
+    color:rgb(0, 0, 0);
+    background-color: rgba(223, 217, 211, 0.5);
+    border-radius: 15px;
+
+}
+video{
+    display: flexbox;
+    justify-items: center;
+}
+h1{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    background-color: rgba(223, 217, 211, 0.5);
+    border-radius: 20px;
+}
+.spec h1:first-child{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    background-color: rgba(223, 217, 211, 0.5);
+    border-radius: 20px;
+    padding: 5px;
+}
+.spec{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    background-color: rgba(223, 215, 211, 0.5);
+    border-radius: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
